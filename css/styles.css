@@ -458,6 +458,10 @@ h1:after {
         background-color: var(--test);
     }
 
+    .troll {
+        content: 'Eu sou viado'
+    }
+
 
     #header{
         font-size: 2.5rem;
