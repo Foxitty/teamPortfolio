@@ -454,6 +454,10 @@ h1:after {
         background-color: #000;
     }
 
+    .on {
+        background-color: var(--test);
+    }
+
 
     #header{
         font-size: 2.5rem;
