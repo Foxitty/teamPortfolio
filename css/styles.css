@@ -423,8 +423,25 @@ header{
         left: 110px;
         right: auto;
     }
-    /* this is tht end of section home */
 
+    h1:before {
+        content: '<h1>';
+        font-family: 'La Belle Aurore',cursive;
+        color: #515152;
+        font-size: 1.8rem;
+        position: absolute;
+        margin-top: -5rem;
+        left: -1.5rem;
+    }
+
+h1:after {
+        content: '<h1/>';
+        font-family: 'La Belle Aurore',cursive;
+        color: #515152;
+        font-size: 1.8rem;
+        position: absolute;
+        margin-top: 3.8rem;
+}
     /* part 2 media query bigger screens starts here */
     #section-work{
         width: 85%;
@@ -432,11 +449,8 @@ header{
         display: flex;
         flex-direction: column;
     }
-    .text-zone-2{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+
+
     #header{
         font-size: 2.5rem;
     }
