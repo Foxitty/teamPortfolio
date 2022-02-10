@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 *,
 ::before,
-<<<<<<< HEAD
 ::after {
   margin: 0;
   padding: 0;
@@ -12,8 +11,10 @@ body {
   font-family: sans-serif;
   color: rgb(255, 255, 255);
   background: rgb(29, 29, 29);
+  overflow-x: hidden;
 }
 header {
+  width: 95%;
   height: 10vh;
   margin: auto;
   display: flex;
@@ -22,11 +23,6 @@ header {
   position: fixed;
   z-index: 2;
 }
-
-.container {
-  width: 90%;
-}
-
 #sound {
   padding: 7px;
   background-color: #1b1b1b;
@@ -60,62 +56,6 @@ header {
 }
 .btns-container .fas:nth-child(2) {
   display: none;
-=======
-::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: sans-serif;
-    color: rgb(255, 255, 255);
-    background: rgb(29, 29, 29);
-    overflow-x: hidden;
-}
-header{
-    width: 95%;
-    height: 10vh;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    z-index: 2;
-}
-#sound{
-    padding: 7px;
-    background-color: #1b1b1b;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    color: #fff;
-}
-.sound-cloud{
-    font-size: 1.2rem;
-    margin: 7px;
-    color: #f50057;
-}
-.on-off{
-    cursor: pointer;
-    margin-left: 5px;
-}
-#off{
-    color: #f50057;
-}
-#on{
-    display: none;
-    color: #08fdd8;
-}
-.btns-container .fas{
-    font-size: 2rem;
-    padding: 10px;
-    background-color: #181818;
-    color: #fff;
-    cursor: pointer;
-}
-.btns-container .fas:nth-child(2){
-    display: none;
->>>>>>> Diego
 }
 
 /* aside section starts here */
@@ -559,51 +499,44 @@ header{
   .text-zone-2 p {
     width: 700px;
     font-size: 14px;
-<<<<<<< HEAD
-    line-height: 1.5rem;
   }
-  .fake-big-2 {
-    font-size: 25rem;
-=======
-}
-.scroll-down--left{
+  .scroll-down--left {
     left: -30px;
     right: auto;
-}
-.scroll-down span{
+  }
+  .scroll-down span {
     display: inline-block;
-    animation: scroll .5s linear infinite alternate-reverse;
-}
-@keyframes scroll{
-    0%{
-        transform: translateX(-7px);
+    animation: scroll 0.5s linear infinite alternate-reverse;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(-7px);
     }
-    100%{
-        transform: translateX(7px);
+    100% {
+      transform: translateX(7px);
     }
-}
-.scroll-down .fas{
+  }
+  .scroll-down .fas {
     transform: rotate(270deg);
     margin-left: 10px;
-}
+  }
 
-/* part 2 starts here */ /* part 2 starts here *//* part 2 starts here */
+  /* part 2 starts here */ /* part 2 starts here */ /* part 2 starts here */
 
-#section-work{
+  #section-work {
     padding: 5rem 0 5rem 1.5rem;
     position: relative;
-}
-#header{
+  }
+  #header {
     font-size: 2rem;
     color: #08fdd8;
     margin-bottom: 30px;
-}
-.text-zone-2 p{
+  }
+  .text-zone-2 p {
     line-height: 1.5;
-}
-.fake-big-2{
+  }
+  .fake-big-2 {
     font-size: 12rem;
->>>>>>> Diego
     font-weight: 700;
     left: 560px;
     top: 0;
@@ -632,208 +565,199 @@ header{
     margin-right: 20%;
   }
 }
-<<<<<<< HEAD
-=======
 /* magical wall ends here */
 
 /* part 3 section starts here */
 
-#section-about{
-    padding-left: 1.5rem;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
+#section-about {
+  padding-left: 1.5rem;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
-.text-zone3 p{
-    margin-bottom: 15px;
-    line-height: 1.5rem;
+.text-zone3 p {
+  margin-bottom: 15px;
+  line-height: 1.5rem;
 }
-.tech{
-    text-decoration: none;
-    color: #08fdd8;
+.tech {
+  text-decoration: none;
+  color: #08fdd8;
 }
 /* blog section starts here */
-.section-blog{
-    width: 85%;
-    margin: 100px auto 0;
-    position: relative;
+.section-blog {
+  width: 85%;
+  margin: 100px auto 0;
+  position: relative;
 }
-.section-blog .fake-big-2{
-    font-size: 12rem;
-    font-weight: bolder;
-    position: absolute;
-    top: -180px;
-    left: 0;
-    
-}
-
-.blog-articles{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-}
-.post-articles{
-    width: 100%;
-    height: 220px;
-    background-color: #1d1d1d;
-    padding: 25px;
-    color: #909096;
-    box-shadow: 0 0  5px 5px #191919;
-    margin-bottom: 30px;
-}
-.post-date{
-    font-size: 14px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-.blog-post-title h5 a{
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    margin: 15px 0;
-}
-.blog-post-title h5 a:hover{
-    color: #06b99e;
+.section-blog .fake-big-2 {
+  font-size: 12rem;
+  font-weight: bolder;
+  position: absolute;
+  top: -180px;
+  left: 0;
 }
 
-
-
+.blog-articles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.post-articles {
+  width: 100%;
+  height: 220px;
+  background-color: #1d1d1d;
+  padding: 25px;
+  color: #909096;
+  box-shadow: 0 0 5px 5px #191919;
+  margin-bottom: 30px;
+}
+.post-date {
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.blog-post-title h5 a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin: 15px 0;
+}
+.blog-post-title h5 a:hover {
+  color: #06b99e;
+}
 
 /* media section for bigger screens */
 
 @media screen and (min-width: 1200px) {
-    header{
-        justify-content: flex-end;
-        align-items: flex-end;
-    }
-    .btns-container{
-        display: none;
-    }
+  header {
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .btns-container {
+    display: none;
+  }
 
-    .aside{
-        width: 10%;
-        height: 100%;
-    }
-    .aside-wrapper{
-        height: 80%;
-    }
-    .logo-section{
-        min-height: 25vh;
-    }
-    .logo img{
-        width: 50px;
-        height: auto;
-    }
-    .social-icons{
-        margin-bottom: 0;
-        text-align: center;
-    }
-    .social-icons li{
-       
-        font-size: 1rem;
-    }
+  .aside {
+    width: 10%;
+    height: 100%;
+  }
+  .aside-wrapper {
+    height: 80%;
+  }
+  .logo-section {
+    min-height: 25vh;
+  }
+  .logo img {
+    width: 50px;
+    height: auto;
+  }
+  .social-icons {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .social-icons li {
+    font-size: 1rem;
+  }
 
-    /* home section */
-    #section-home{
-        padding-left: 13rem;
-    }
-    .text-zone h1{
-        font-size: 6.3rem;
-        line-height: 85px;
-        letter-spacing: -6px;
-    }
-    .text-zone img{
-        width: 50px;
-        height: 72px;
-    }
-    .text-zone .gray-text{
-        font-size: 1rem;
-    }
-    .scroll-down{
-        right: -30px;
-        bottom: 3.3rem;
-    }
-    .scroll-down--left{
-        left: 110px;
-        right: auto;
-    }
-    /* part 2 media query bigger screens starts here */
-    #section-work{
-        width: 85%;
-        margin: 0 30px 0 auto;
-        display: flex;
-        flex-direction: column;
-    }
-    .text-zone-2{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    #header{
-        font-size: 2.5rem;
-    }
-    .text-zone-2 p{
-        width: 700px;
-        font-size: 14px;
-        line-height: 1.5rem;
-    }
-    .fake-big-2{
-        font-size: 25rem;
-        font-weight: 700;
-        left: 560px;
-        top: 0;
-    }
-    .fake-magicwall{
-        padding-left: 8.5rem;
-    }
-    .fake-magicwall ul li{
-        width: 242px;
-        height: 236px;
-    }
+  /* home section */
+  #section-home {
+    padding-left: 13rem;
+  }
+  .text-zone h1 {
+    font-size: 6.3rem;
+    line-height: 85px;
+    letter-spacing: -6px;
+  }
+  .text-zone img {
+    width: 50px;
+    height: 72px;
+  }
+  .text-zone .gray-text {
+    font-size: 1rem;
+  }
+  .scroll-down {
+    right: -30px;
+    bottom: 3.3rem;
+  }
+  .scroll-down--left {
+    left: 110px;
+    right: auto;
+  }
+  /* part 2 media query bigger screens starts here */
+  #section-work {
+    width: 85%;
+    margin: 0 30px 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .text-zone-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #header {
+    font-size: 2.5rem;
+  }
+  .text-zone-2 p {
+    width: 700px;
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+  .fake-big-2 {
+    font-size: 25rem;
+    font-weight: 700;
+    left: 560px;
+    top: 0;
+  }
+  .fake-magicwall {
+    padding-left: 8.5rem;
+  }
+  .fake-magicwall ul li {
+    width: 242px;
+    height: 236px;
+  }
 
-    /* media query for about section */
-    #section-about{
-        flex-direction: row;
-        padding-left: 13rem;
-    }
-    .text-zone3 #header{
-        width: 500px;
-        font-size: 3rem;
-    }
-    .text-zone3 p{
-        width: 400px;
-    }
-    .skills-charts{
-        margin-right: 20%;
-    }
+  /* media query for about section */
+  #section-about {
+    flex-direction: row;
+    padding-left: 13rem;
+  }
+  .text-zone3 #header {
+    width: 500px;
+    font-size: 3rem;
+  }
+  .text-zone3 p {
+    width: 400px;
+  }
+  .skills-charts {
+    margin-right: 20%;
+  }
 
-    /* media query for blog section */
-    .section-blog{
-        width: 90%;
-        margin: 100px auto 0;
-    }
-    .section-blog .fake-big-2{
-        font-size: 27rem;
-        top: -270px;
-    }
-    .blog-articles{
-        width: 90%;
-        margin: 0 0 0 auto;
-        flex-flow: row wrap;
-    }
-    .post-articles{
-        width: 340px;
-        height: 270px;
-    }
-    .blog-post-title h5 a{
-        font-size: 1.7rem;
-        line-height: 2rem;
-    }
-  
+  /* media query for blog section */
+  .section-blog {
+    width: 90%;
+    margin: 100px auto 0;
+  }
+  .section-blog .fake-big-2 {
+    font-size: 27rem;
+    top: -270px;
+  }
+  .blog-articles {
+    width: 90%;
+    margin: 0 0 0 auto;
+    flex-flow: row wrap;
+  }
+  .post-articles {
+    width: 340px;
+    height: 270px;
+  }
+  .blog-post-title h5 a {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
 }
->>>>>>> Diego
