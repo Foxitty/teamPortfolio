@@ -21,7 +21,7 @@ const soundTrack = (soundState) => {
     }
 }
 
-// Play music functionality
+// Play Music
 
 const btnBars = document.querySelector('.bars');
 const btnTimes = document.querySelector('.times');
