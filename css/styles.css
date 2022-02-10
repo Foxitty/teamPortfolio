@@ -359,6 +359,12 @@ S
     transform: scale(0.6);
     opacity: 1;
 }
+    
+canvas { 
+    border: 1px solid #333333; 
+}
+
+
 
 
 
