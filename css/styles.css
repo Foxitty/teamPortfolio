@@ -14,7 +14,6 @@ body {
   background: rgb(29, 29, 29);
 }
 header {
-  width: 95%;
   height: 10vh;
   margin: auto;
   display: flex;
@@ -23,6 +22,11 @@ header {
   position: fixed;
   z-index: 2;
 }
+
+.container {
+  width: 90%;
+}
+
 #sound {
   padding: 7px;
   background-color: #1b1b1b;
@@ -335,7 +339,7 @@ header{
   transform: rotate(270deg);
   margin-left: 10px;
 }
-S #section-work {
+#section-work {
   padding: 5rem 0 5rem 1.5rem;
   position: relative;
 }
