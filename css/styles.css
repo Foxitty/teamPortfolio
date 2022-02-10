@@ -564,16 +564,12 @@ header {
   .skills-charts {
     margin-right: 20%;
   }
-<<<<<<< HEAD
 }
-=======
 
->>>>>>> 94859ca3baf2755ede48d357705a921780404e3f
 /* magical wall ends here */
 
 /* part 3 section starts here */
 
-<<<<<<< HEAD
 #section-about {
   padding-left: 1.5rem;
   margin-top: 100px;
@@ -582,16 +578,15 @@ header {
   justify-content: space-between;
   align-items: center;
   position: relative;
-=======
-.section-about{
-    padding-left: 1.5rem;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
->>>>>>> 94859ca3baf2755ede48d357705a921780404e3f
+}
+.section-about {
+  padding-left: 1.5rem;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 .text-zone3 p {
   margin-bottom: 15px;
@@ -737,7 +732,6 @@ header {
     height: 236px;
   }
 
-<<<<<<< HEAD
   /* media query for about section */
   #section-about {
     flex-direction: row;
@@ -776,45 +770,42 @@ header {
     font-size: 1.7rem;
     line-height: 2rem;
   }
-=======
-    /* media query for about section */
-    .section-about{
-        flex-direction: row;
-        padding-left: 13rem;
-    }
-    .text-zone3 #header{
-        width: 500px;
-        font-size: 3rem;
-    }
-    .text-zone3 p{
-        width: 400px;
-    }
-    .skills-charts{
-        margin-right: 20%;
-    }
+  /* media query for about section */
+  .section-about {
+    flex-direction: row;
+    padding-left: 13rem;
+  }
+  .text-zone3 #header {
+    width: 500px;
+    font-size: 3rem;
+  }
+  .text-zone3 p {
+    width: 400px;
+  }
+  .skills-charts {
+    margin-right: 20%;
+  }
 
-    /* media query for blog section */
-    .section-blog{
-        width: 90%;
-        margin: 100px auto 0;
-    }
-    .section-blog .fake-big-2{
-        font-size: 27rem;
-        top: -270px;
-    }
-    .blog-articles{
-        width: 90%;
-        margin: 0 0 0 auto;
-        flex-flow: row wrap;
-    }
-    .post-articles{
-        width: 340px;
-        height: 270px;
-    }
-    .blog-post-title h5 a{
-        font-size: 1.7rem;
-        line-height: 2rem;
-    }
-
->>>>>>> 94859ca3baf2755ede48d357705a921780404e3f
+  /* media query for blog section */
+  .section-blog {
+    width: 90%;
+    margin: 100px auto 0;
+  }
+  .section-blog .fake-big-2 {
+    font-size: 27rem;
+    top: -270px;
+  }
+  .blog-articles {
+    width: 90%;
+    margin: 0 0 0 auto;
+    flex-flow: row wrap;
+  }
+  .post-articles {
+    width: 340px;
+    height: 270px;
+  }
+  .blog-post-title h5 a {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
 }
