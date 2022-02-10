@@ -359,6 +359,76 @@ S
     transform: scale(0.6);
     opacity: 1;
 }
+<<<<<<< Updated upstream
+=======
+/* magical wall ends here */
+
+/* part 3 section starts here */
+
+.section-about{
+    padding-left: 1.5rem;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.text-zone3 p{
+    margin-bottom: 15px;
+    line-height: 1.5rem;
+}
+.tech{
+    text-decoration: none;
+    color: #08fdd8;
+}
+/* blog section starts here */
+.section-blog{
+    width: 85%;
+    margin: 100px auto 0;
+    position: relative;
+}
+.section-blog .fake-big-2{
+    font-size: 12rem;
+    font-weight: bolder;
+    position: absolute;
+    top: -180px;
+    left: 0;
+    
+}
+
+.blog-articles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.post-articles{
+    width: 100%;
+    height: 220px;
+    background-color: #1d1d1d;
+    padding: 25px;
+    color: #909096;
+    box-shadow: 0 0  5px 5px #191919;
+    margin-bottom: 30px;
+}
+.post-date{
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.blog-post-title h5 a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin: 15px 0;
+}
+.blog-post-title h5 a:hover{
+    color: #06b99e;
+}
+
+>>>>>>> Stashed changes
 
 
 
@@ -457,6 +527,24 @@ S
         height: 236px;
     }
 
+<<<<<<< Updated upstream
+=======
+    /* media query for about section */
+    .section-about{
+        flex-direction: row;
+        padding-left: 13rem;
+    }
+    .text-zone3 #header{
+        width: 500px;
+        font-size: 3rem;
+    }
+    .text-zone3 p{
+        width: 400px;
+    }
+    .skills-charts{
+        margin-right: 20%;
+    }
+>>>>>>> Stashed changes
 
 
 }
