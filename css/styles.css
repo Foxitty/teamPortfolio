@@ -338,6 +338,12 @@ header {
   height: 100%;
   object-fit: cover;
 }
+    
+canvas { 
+    border: 1px solid #333333; 
+}
+
+
 
 .fake-magicwall ul li:hover .magic-wall_item {
   transform: scale(1.14);
