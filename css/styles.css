@@ -13,13 +13,37 @@ body {
   background: rgb(29, 29, 29);
   overflow-x: hidden;
 }
-header {
+
+#outer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  overflow: hidden;
+}
+
+#outer > div {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#outer > div > canvas {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#o header {
   height: 10vh;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  right: 30px;
   z-index: 2;
 }
 #sound {
@@ -338,12 +362,6 @@ header {
   height: 100%;
   object-fit: cover;
 }
-    
-canvas { 
-    border: 1px solid #333333; 
-}
-
-
 
 .fake-magicwall ul li:hover .magic-wall_item {
   transform: scale(1.14);
