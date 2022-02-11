@@ -103,8 +103,8 @@ const myFunc = (navCondition) => {
 
   function E(d) {
     d = d ? d : window.event;
-    q = d.clientX - m.offsetLeft - n.offsetLeft;
-    r = d.clientY - m.offsetTop - n.offsetTop;
+    q = d.clientX - m.offsetLeft - n.offsetLeft + d.clientX / 2;
+    r = d.clientY - m.offsetTop - n.offsetTop + d.clientY / 2;
   }
 
   function F() {
@@ -129,8 +129,8 @@ const myFunc = (navCondition) => {
     this.size = 1;
   }
   var D = 2 * Math.PI,
-    f = 1e3,
-    p = 560,
+    f = 1200,
+    p = 600,
     z = 600,
     B = 0.96,
     A = [],
@@ -158,6 +158,7 @@ const myFunc = (navCondition) => {
       m = document.getElementById("outer");
       n = document.getElementById("canvasContainer");
       e = o.getContext("2d");
+      o.setAttribute("height", 535);
       for (var d = z; d--; ) {
         var l = new H();
         l.x = 0.5 * f;
@@ -171,7 +172,7 @@ const myFunc = (navCondition) => {
       document.onmousedown = F;
       document.onmouseup = G;
       document.onmousemove = E;
-      setInterval(C, 33);
+      setInterval(C, 25);
     } else
       document.getElementById("output").innerHTML =
         "Sorry, needs a recent version of Chrome, Firefox, Opera, Safari, or Internet Explorer 9.";
