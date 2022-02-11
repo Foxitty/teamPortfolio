@@ -109,10 +109,9 @@ const myFunc = (navCondition) => {
 
   function F() {
     w = !0;
-    document.querySelector("audio").play();
-    setTimeout(() => {
-      document.querySelector("audio").remove();
-    }, 20000);
+    window.addEventListener("click", () => {
+      document.querySelector("audio").play();
+    });
     return !1;
   }
 
