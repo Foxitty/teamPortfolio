@@ -512,7 +512,7 @@ body {
   }
   /* part 2 media query bigger screens starts here */
   #section-work {
-    width: 85%;
+    width: 100%;
     margin: 0 30px 0 auto;
     display: flex;
     flex-direction: column;
@@ -536,9 +536,12 @@ body {
     left: 560px;
     top: 0;
   }
-  .fake-magicwall {
-    padding-left: 8.5rem;
+
+  .fake-magicwall ul {
+    flex-wrap: nowrap;
+    overflow: auto;
   }
+
   .fake-magicwall ul li {
     width: 242px;
     height: 236px;
@@ -547,7 +550,6 @@ body {
   /* media query for about section */
   .section-about {
     flex-direction: row;
-    padding-left: 13rem;
   }
   .text-zone3 #header {
     width: 500px;
@@ -557,7 +559,7 @@ body {
     width: 400px;
   }
   .skills-charts {
-    margin-right: 20%;
+    margin-right: 5%;
   }
 
   /* media query for blog section */
