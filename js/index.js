@@ -109,9 +109,6 @@ const myFunc = (navCondition) => {
 
   function F() {
     w = !0;
-    window.addEventListener("click", () => {
-      document.querySelector("audio").play();
-    });
     return !1;
   }
 
