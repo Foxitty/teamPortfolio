@@ -19,6 +19,10 @@ body {
   height: 1px;
 }
 
+.jkiuk192 {
+  display: none;
+}
+
 #outer > div {
   position: absolute;
   left: 0;
