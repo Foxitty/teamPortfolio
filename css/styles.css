@@ -181,6 +181,11 @@ body {
   color: #08fdd8;
 }
 
+#home-magicwall {
+  width: 100%;
+  overflow: hidden;
+}
+
 /* nav bar ends here */
 
 #section-home {
@@ -543,7 +548,7 @@ body {
 
   .fake-magicwall ul {
     flex-wrap: nowrap;
-    overflow: auto;
+    transition: transform 0.25s ease;
   }
 
   .fake-magicwall ul li {
